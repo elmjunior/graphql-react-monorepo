@@ -2,7 +2,11 @@ import { createGlobalStyle, DefaultTheme } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {
+    font-family: Verdana,Geneva,sans-serif; 
     background-color: ${(props) => props.theme.colors.black};
+  }
+  h1 {
+    color: ${(props) => props.theme.colors.primary};
   }
 `;
 

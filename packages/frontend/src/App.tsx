@@ -9,7 +9,8 @@ function App() {
     <ApolloProvider client={client}>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
-        <div className="App"></div>
+
+        <h1>Lorem ipsum</h1>
       </ThemeProvider>
     </ApolloProvider>
   );
