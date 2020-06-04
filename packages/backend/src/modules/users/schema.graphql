@@ -1,0 +1,13 @@
+type User {
+  name: String
+  slug: String
+}
+input UserInput {
+  name: String
+}
+
+
+
+type Mutation {
+  addUser(user: UserInput): User
+}
